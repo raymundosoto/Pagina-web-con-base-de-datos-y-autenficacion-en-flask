@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'raymundosoto.mysql.pythonanywhere-services.com'
 app.config['MYSQL_USER'] = 'raymundosoto'
 app.config['MYSQL_PASSWORD'] = 'Soto1981Soto'
-app.config['MYSQL_DB'] = 'flask_auth'
+app.config['MYSQL_DB'] = 'raymundosoto$flask_auth'
 
 mysql = MySQL(app)
 
